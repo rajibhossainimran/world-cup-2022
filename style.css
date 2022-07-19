@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* - ----------------first part or header section ------------ - */
+
+.main-container {
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+}
+
+.header-container {
+    border-radius: 30px;
+    margin-right: 10%;
+    display: flex;
+    background: #161616;
+    width: 100%;
+    height: 478px;
+}
+
+.header-info {
+    padding-left: 5%;
+    padding-top: 5%;
+    margin: 5%;
+    width: 50%;
+}
+
+.header-image {
+    margin-bottom: 0;
+    margin-right: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.header-image img {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.header-tittle {
+    color: #ffff;
+    font-size: 6vh;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.header-p-text {
+    color: hwb(0 86% 13%);
+    font-size: 2vh;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+}
+
+.header-watch-btn {
+    margin-top: 40px;
+    text-decoration: none;
+    color: #ffff;
+    background: #DD0000;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+
+/* ---------- --------------mid part or blog section  ---------------- */
+
+.main-blog-container {
+    margin-top: 100px;
+}
+
+.blog-container {
+    display: flex;
+}
+
+
+/*------- blog info box /------ */
+
+.blog-info-box {
+    margin-right: 15px;
+}
+
+.main-box {
+    border-radius: 10px;
+    background-color: #161616;
+    width: 180px;
+    height: 180px;
+}
+
+.all-box {
+    padding-top: 5%;
+}
+
+.boxs {
+    background-color: #ffff;
+    border-radius: 8px;
+    margin: 7%;
+    padding: 4px 20px;
+}
+
+.box-text {
+    text-decoration: none;
+    /* padding: 8px 39px; */
+    font-size: 13px;
+    color: #161616;
+}
+
+#colour-box {
+    background-color: #DD0000;
+}
+
+
+/*---------- blog image-------  */
+
+.box-details-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.detail {
+    border: 1px solid #d1d0d0;
+    width: 220px;
+    height: 326px;
+    border-radius: 10px;
+}
+
+.icon-box {
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+
+.detail img {
+    width: 220px;
+    height: 135px;
+    margin-bottom: 10px;
+}
+
+.detail-a-text {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 3px 16px;
+    color: #161616;
+    border-radius: 5px;
+}
+
+.fa-clock {
+    margin-right: 6px;
+}
+
+.fa-message {
+    margin-left: 40px;
+    margin-right: 6px;
+}
+
+span {
+    color: grey;
+}
+
+
+/*-------------------- footer part ----------------------------- */
+
+footer {
+    justify-items: center;
+    align-items: center;
+    background-color: #161616;
+    width: 100%;
+    height: 244px;
+}
+
+.footer-main {
+    background-color: #161616;
+    width: 100%;
+    height: 154px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-tittle {
+    font-size: 27px;
+    padding-top: 7%;
+    margin-left: 45%;
+    color: #d1d0d0;
+}
+
+.icon {
+    margin-left: 2%;
+}
+
+.footer-p-text {
+    color: #e0dfdf;
+    font-size: 11px;
+}
+
+#horizontal {
+    height: 0;
+    font-size: 4px;
+    color: rgb(44, 43, 43);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
