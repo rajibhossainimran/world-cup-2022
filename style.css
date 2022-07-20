@@ -304,6 +304,48 @@ footer {
 }
 
 
+/*-------------------------------
+------------ ALL GROUP -------------------------------------
+----------------------------------------- */
+
+.all-group-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 150px;
+    grid-row-gap: 20px;
+}
+
+.container-all {
+    background-image: linear-gradient(#f5bebe, white);
+    border: 1px solid rgb(151, 150, 150);
+    width: 160px;
+    height: 322px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.container-all {
+    padding: 10%;
+}
+
+.all-group-h2-text {
+    background-image: linear-gradient(orange, tomato);
+    padding: 2px 7px;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+.group-name {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    color: #DD0000;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+
 /*------------------ Media Query ----------------------------- */
 
 
@@ -400,13 +442,22 @@ footer {
         font-size: 19px;
         margin-top: 0;
     }
-    /* outcoming match ---- */
+    /*--------- outcoming match ---- */
     .main-germany-france-container {
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
     }
     .middlr-vs-text {
         margin-right: 50px;
+    }
+    /*--------- all group ////------ */
+    .all-group-container {
+        margin-top: 20px;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container-all {
+        width: 70%;
     }
 }
 
@@ -501,10 +552,19 @@ footer {
     #colour-box {
         margin: 0;
     }
-    /* outcoming match ---- */
+    /*---------- outcoming match ---- */
     .main-germany-france-container {
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
+    }
+    /*------- all group team -------------------- */
+    .all-group-container {
+        margin-top: 40px;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container-all {
+        width: 70%;
     }
 }
 
@@ -513,6 +573,6 @@ footer {
 
 @media only screen and (min-width:993px) {
     .view-button {
-        display: none
+        display: none;
     }
 }
