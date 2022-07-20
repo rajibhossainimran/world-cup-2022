@@ -31,6 +31,9 @@ body {
     transition: 0.6s;
 }
 
+
+/*---------- animation part ------------------------- */
+
 .header-container:hover {
     box-shadow: 0 0 25px rgb(232, 236, 0), 0 0 25px rgb(247, 222, 0), 0 0 25px rgb(190, 0, 41);
 }
@@ -81,6 +84,9 @@ body {
     overflow: hidden;
     transition: 0.7s;
 }
+
+
+/*----------- button animatio part ------------ */
 
 .header-watch-btn:hover {
     color: #ffff;
