@@ -68,6 +68,15 @@ body {
     background: #DD0000;
     padding: 9px;
     border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.7s;
+}
+
+.header-watch-btn:hover {
+    color: #ffff;
+    box-shadow: 0 0 25px rgb(236, 4, 74), 0 0 25px red, 0 0 25px red;
 }
 
 
